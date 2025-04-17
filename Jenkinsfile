@@ -10,13 +10,13 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t my-docker-webapp .'
+                bat 'docker build -t my-docker-webapp .'
             }
         }
 
         stage('Run Docker Container') {
             steps {
-                sh 'docker run -d -p 8081:80 --name webapp-container my-docker-webapp'
+                bat 'docker run -d -p 8081:80 --name webapp-container my-docker-webapp'
             }
         }
     }
