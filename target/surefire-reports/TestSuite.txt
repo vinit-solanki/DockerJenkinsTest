@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 2.249 s <<< FAILURE! - in TestSuite
+setup(com.selenium.tests.LoginTest)  Time elapsed: 1.572 s  <<< FAILURE!
+org.openqa.selenium.remote.NoSuchDriverException: 
+chromedriver located at C:\Users\Admin\myfirst\SeleniumTestProject\chromedriver.exe, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: driver.version: ChromeDriver
+	at com.selenium.tests.LoginTest.setup(LoginTest.java:17)
+
